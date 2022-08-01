@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+	<meta name="author" content="Hassan Ali">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.column.is-6, .column.is-6-tablet {
+    flex: none;
+    width: 33%;
+}
+	</style>
+</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="nav container void-background" style="position: fixed; color: blue;">
+			<!-- This "nav-menu" is hidden on mobile -->
+			<!-- Add the modifier "is-active" to display it on mobile -->
+			<div class="nav-left">
+				<a href="http://codepen.com/" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-codepen"></i>
+					</span>
+				</a>
+				<a href="http://github.com/" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-github"></i>
+					</span>
+				</a>
+				<a href="https://twitter.com/" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-twitter"></i>
+					</span>
+				</a>				
+			</div>
+
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#about">About</a>
+				<a class="nav-item" href="#projects">Skills</a>
+				<a class="nav-item" href="#social">Social</a>
+				<a class="nav-item" href="#edu">Education</a>
+			</div>
+
+			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
+				
+		<!-- About Me -->
+		<section id="about" class="section section-1">
+			<div class="container has-text-centered">
+				<!-- Source: https://flic.kr/p/pAZBNK -->
+				<img class="avatar" src="assets/img/smit.jpg">
+			</div>
+			<div class="container"></br>
+				<p class="intro">
+					I am looking for an entry-level position to kickstart my career in the (specify field). I wish to work in a dynamic organisation that will contribute to my professional and personal growth while I contribute to the growth of the company as well as engage in opportunities to further the company's goals.
+				</p>
+			</div>
+		</section>
+
+		<div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-6 col-md-6 col-sm-6 wow slideInLeft" data-wow-duration="3s" style="margin: 5%;">
+			<br /><h2 class="text-center" style="font-size:2rem;">Education Qualification</h2><hr />
+			<table class="table table-responsive">
+				<tr>
+					<td>Year<br />2017-2018</td>
+					<td>I completed my SSC in 2018 in <br /> Karamachari Shikshan Tirth<br /> (Throughout First Class with Distinction).</td>
+				</tr>
+				<tr>
+					<td>Year<br />2019-2020</td>
+					<td>I completed my HSC in 2020 in <br /> Karamachari Shikshan Tirth<br /> (Throughout First Class with Distinction).</td>
+				</tr>
+				
+			</table>
+	   </div>
+
+		
+		<!-- Skill -->
+		<section  id="projects" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Skills</h3>
+				</div>
+				<!-- <div class="has-text-centered">
+					<ul>
+						<li>Python</li>
+						<li>Java</li>
+						<li>C++</li>
+						<li>Flutter</li>
+						<li>Html</li>
+						<li>CSS</li>
+					</ul>
+				</div> -->
+				
+				<div class="columns is-multiline is-desktop">
+					<marquee behavior="scroll" direction="right" id="edu">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png" width="120" height="80" alt="C++" />
+						<img src="https://i.stack.imgur.com/PgcSR.png" width="120" height="80" alt="HTML" />
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" width="120" height="80" alt="CSS" />
+						<img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" width="120" height="80" alt="Java" />
+						<img src="https://storage.googleapis.com/cms-storage-bucket/0dbfcc7a59cd1cf16282.png" width="120" height="80" alt="Flutter" />
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png" width="120" height="80" alt="Python" />
+					  </marquee>
+				</div>
+			</div>
+		</section>
+
+		<!-- Social -->
+		<section id="social" class="section section-3">
+			<div class="container">
+				<div class="has-text-centered">					
+					<h3 class="title is-3">Let's Socialize</h3>
+				</div>
+				<div class="social-container columns resch">
+					<div class="column is-6 has-text-centered res">
+						<a target="_blank" href="https://ca.linkedin.com/in/"><img class="" src="assets/img/linkedin.png"></a>
+					</div>
+					<div class="column is-6 has-text-centered res">
+						<a target="_blank" href="https://www.facebook.com/"><img class="" src="assets/img/facebook.png"></a>
+					</div>
+					<div class="column is-6 has-text-centered res">
+						<a target="_blank" href="https://www.facebook.com/"><img class="" src="assets/img/twitter.png"></a>
+					</div>
+				</div>
+			</div>
+		</section>	
+		
+		<!-- Scripts  -->
+		<script src="controller.js"></script>		
+	</body>	
+</html>
